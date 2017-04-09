@@ -165,6 +165,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.color.primary }};
 }
 
+.page-title {
+    text-shadow: 0px 0px 60px #000000;
+}
+
 .btn-xl .badge {
     color: #{{ site.color.primary }};
     background-color: #fff;
@@ -376,6 +380,11 @@ section#program .program-w {
     left: 6px; top: -3px;
     height: 149px; width: 107px;
     align: center;
+}
+
+.program-circle,
+.program-circle:hover {
+    color: #{{ site.color.primary }};
 }
 
 #portfolio .portfolio-item {
